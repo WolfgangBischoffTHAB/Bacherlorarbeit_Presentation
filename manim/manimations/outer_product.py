@@ -45,8 +45,8 @@ class DefaultTemplate(MovingCameraScene):
         
         
         
-        self.camera.frame.shift(RIGHT * 2)
-        self.camera.frame.set(width=25.0)
+        self.camera.frame.shift(RIGHT * 6).shift(UP * 2)
+        self.camera.frame.set(width=18.0)
         
         
         
